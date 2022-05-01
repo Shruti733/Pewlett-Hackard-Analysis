@@ -49,9 +49,9 @@ in future for each title.
 
 1. `Employees`, `dept_emp` and `titles` tables were joined to get the required details.
 2. DISTINCT ON() function was applied on emp no to get the unique employee data.
-3. To date was set equal to `9999-01-01` to get the current employees who were born in `1965`
+3. To date was set equal to `9999-01-01` to get the current employees who were born in `1965`.
 
-![mentorship_eligibility](image_analysis/mentorship_eligibility.png)
+![mentorship_eligibility](image_analysis/mentorship_eligibilty.png)
 
 Based on the data above, we have observed the following: 
 
