@@ -2,7 +2,7 @@
 
 ## Overview of the project
 
-In this project, we were working on a employees data-set using SQL. Structured Query Language (SQL), is a standardized
+In this project, we were working on a employee data-set using SQL. Structured Query Language (SQL), is a standardized
 programming language for storing, manipulating and retrieving data stored in a relational database. SQL is capable
 of handling large number of transactions in a single query and it is easier to manage a relational database using SQL as
 no large amount of coding is required. 
@@ -63,7 +63,7 @@ Based on the data above, we have observed the following:
 
 2. Total number of employees eligible for mentorship program are `1549`, which are about `2%` of the total number of
 employees retiring `(72498)`. We have compared the number of employees eligible for mentorship to number of retiring
-employees as the number of retiring employees is a reflector of how many new employees are going to join the
+employees as the number of retiring employees are a reflector of how many new employees are going to join the
 organization who will require mentorship.
 
 
@@ -94,7 +94,7 @@ with birth year `1952`.
 ![1952_retiring_employees](image_analysis/1952_retiring_employees.png)
 
 For example, if we analyze the data for dept `d004` for retiring employees and mentorship eligible employees, we can see
-that there are only `2 staff` eligible for mentorship against `65 retiring staff`. Also there are only `99 senior engineer`
+that there are only `2 staff` eligible for mentorship against `65 retiring staff`. Also, there are only `99 senior engineer`
 eligible for mentorship against `1522 retiring senior engineer`, which do not look sufficient to provide mentorship
 to new generation employees.
 
