@@ -76,21 +76,31 @@ we can query and find out the number roles need to be filled each year.
 ![year_wise_retirement](image_analysis/year_wise_retirement.png)
 
 2. Total number of employees eligible for mentorship program are 1549 whereas, 72498 employees are retiring over the four
-years. It seems we do not have sufficient mentors for the next generation of employees. We have made an assumption regarding the analysis:
+years. It seems we do not have sufficient mentors for the next generation of employees. We have made an assumption regarding
+the analysis:
 - Mentor and mentee should be from same department and title. 
 
-Considering above assumptions, we have written additional queries to dig into more insights wherein, we have extracted the department-wise retiring employee data with title and department-wise mentorship eligible employee data with title. This data can be more useful in understanding the ratio between mentor and mentee.
+Considering above assumptions, we have written additional queries to dig into more insights wherein, we have extracted
+the department-wise retiring employee data with title and department-wise mentorship eligible employee data with title.
+This data can be more useful in understanding the ratio between mentor and mentee.
 
 ![mentorship_eligibility_title_wise](image_analysis/mentorship_eligibility_title_wise.png)
 
-In our analysis, we have utilized the data of retiring employees who were born in year 1952, assuming that they are going
-to retire in first year. After analyzing the data, we have noticed that 16981 employees are retiring whose
-birth year is 1952 whereas, the mentorship eligible employees are 1549, which are about 10% of the employees retiring with birth
-year 1952. 
+In our analysis, we have utilized the data of retiring employees who were born in year 1952, assuming that they are
+going to retire in first year. After analyzing the data, we have noticed that 16981 employees are retiring whose
+birth year is 1952 whereas, the mentorship eligible employees are 1549, which are about 10% of the employees retiring
+with birth year 1952. 
 
 ![1952_retiring_employees](image_analysis/1952_retiring_employees.png)
 
-For example 
+For example if we analyze the data for dept d004 for retiring employees and mentorship eligible employees, we can see
+that there are only 2 staff eligible for mentorship against 65 retiring staff. Also there are only 99 senior engineer
+eligible for mentorship against 1522 retiring senior engineer, which do not look sufficient to provide mentorship
+to new generation employees.
+
+![d004_mentorship_eligibility](image_analysis/d004_mentorship_eligibility.png)
+
+![d004_retiring_employees](image_analysis/d004_retiring_employees.png)
  
 
 
