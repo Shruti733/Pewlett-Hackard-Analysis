@@ -23,21 +23,21 @@ mentorship program we have used the following steps:
 
 - Firstly, we used `employees` and `titles` table to determine the number of retiring employees by title, who were born
 between 1952 and 1955. Although this provided us a list of employees who were going to retire soon, but it was not providing
-the correct data as there were duplicate entries for some employees because they had switched titles via promotion over the
+the correct data. There were duplicate entries for some employees because they had switched titles via promotion over the
 years.
 
 ![retirement_titles](image_analysis/retirement_titles.png)
 
 - In order to get the unique title for each employee, DISTINCT ON() function was applied on the employee number. Also,
-`to date` was set equal to `9999-01-01`, so that the most recent title of each employee can be determined. By this,
+`to date` was set equal to `9999-01-01`, so that the most recent title of each employee can be determined. By this query,
 we were able to get the details with the most recent title of each employee, without any repetition. However, it
-is observed that we really did not need to use DISTINCT ON() statement in our query as the `to date` filter was
+is observed that we really did not need to use DISTINCT ON() function in our query as the `to date` filter was
 enough to remove employees with multiple rows due to different titles.
 
 ![unique_titles_table](image_analysis/unique_titles_table)
 
 - To get the total number of retiring employees for each title, COUNT() function was applied on employee number along
-with GROUP BY() function on title. By this, we were able to create a table, which was holding the count of retiring
+with GROUP BY() function on title. By this query, we were able to create a table, which was holding the count of retiring
 employees for each title. Alternatively, this data can help us to determine how many positions are needed to be filled
 in future for each title.
 
@@ -70,4 +70,4 @@ organization who will require mentorship.
 ## Summary
 
 Total 72458 roles will need to be filled as the "silver tsunami" begins to make an impact. To get the more precise
-results, we have made another table where we have extracted the retiring employees per birth year. By this, 
+results, we have made another table where we have extracted the retiring employees per birth year. By this query, 
